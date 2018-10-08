@@ -1,2 +1,2 @@
 webpackJsonp([10],{210:function(t,e,c){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),function(t){function c(e,c){this.setState(e,function(){Object.keys(e).forEach(function(c){var i=t.isArray(e[c])||t.isObject(e[c])?JSON.stringify(e[c]):e[c],a=t.isArray(e[c])||t.isObject(e[c])?"_json":"";localStorage.setItem("PitchShitKey_"+c+a,i)}),t.isNil(c)||c()})}function i(t){var e={};return Object.keys(t).forEach(function(c){var i=localStorage.getItem("PitchShitKey_"+c)||JSON.parse(localStorage.getItem("PitchShitKey_"+c+"_json"));e[c]=i||t[c]}),e}e.setStateAndSave=c,e.getStateFromLocalStorage=i}.call(e,c(60))}});
-//# sourceMappingURL=10.a60ee371.chunk.js.map
+//# sourceMappingURL=10.672997d3.chunk.js.map
